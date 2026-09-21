@@ -1,17 +1,166 @@
----
-
----
+--- import "./css/styles.css"; ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+</head>
+
+<body>
+
+  <!-- Put this part before </body> tag -->
+  <input type="checkbox" checked id="my_modal_6" class="modal-toggle" />
+  <div class="modal bg-gray-900/95" role="dialog">
+    <div class="modal-box !pt-0 overflow-hidden flex flex-wrap justify-center">
+      <img src="./bg3.jpg" alt="" class="absolute bottom-0 left-0">
+      <div class="relative py-10">
+        <p class="w-full text-center text-indigo-950">Perdóname, estoy bastante gastado, y no me es posible comprar flores en estos momentos, sin embargo, y aprovechando que soy programador, te hice este pequeño detalle, espero que te guste.</p>
+        <div class="modal-action flex justify-center">
+          <label for="my_modal_6" id="btn" class="btn bg-indigo-400 border-0 text-indigo-950">Cerrar</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img src="./bg5.jpg" alt="" class="absolute left-0 top-0 w-full h-full">
+
+  <main class="h-dvh w-dvw flex items-center justify-center bg-red-100 overflow-visible">
+
+        <section class="relative overflow-visible">
+
+            <img src="./wrap.png" alt="" class="w-48" id="wrap">
+
+            
+            <div class="absolute -top-14  overflow-visible w-full ">
+              
+              <div class="absolute w-auto left-16 top-8 -rotate-5 ">
+                <img src="./stick.png" alt="" class="stick absolute h-48 left-1/2 -translate-x-1/2 top-1/4 rotate-x-180">
+                <img src="./leave.png" alt="" class="leave absolute size-8 top-full left-1/12">
+                <img src="./leave.png" alt="" class="leave absolute size-8 -bottom-full right-1/12 rotate-x-180">
+                <img src="./gerbera.png" alt="" class="flower size-18 relative">
+              </div>
+
+              <div class="absolute right-0 top-6 w-auto rotate-10 ">
+                <img src="./stick.png" alt="" class="stick absolute h-48 left-1/2 -translate-x-1/2 top-1/4 rotate-x-180">
+                <img src="./leave.png" alt="" class="leave absolute size-8 top-full left-1/12">
+                <!-- <img src="./leave.png" alt="" class=" absolute size-8 -bottom-full right-1/8 rotate-x-180"> -->
+                <img src="./lily2.png" alt="" class="flower size-22 relative rotate-15">
+              </div>              
+
+              <div class="absolute w-auto left-12 top-18 ">
+                <img src="./stick.png" alt="" class="stick absolute h-48 left-1/2 -translate-x-1/2 top-1/4 rotate-x-180">
+                <!-- <img src="./leave.png" alt="" class=" absolute size-8 top-full left-1/12"> -->
+                <img src="./leave.png" alt="" class="leave absolute size-8 -bottom-full right-1/12 rotate-x-180">
+                <img src="./gerbera.png" alt="" class="flower size-20 relative">
+              </div>
+
+              
+              <div class=" absolute w-auto rotate-15 top-12 right-0 ">
+                <img src="./stick.png" alt="" class="stick absolute h-48 left-1/2 -translate-x-1/2 top-1/4 rotate-x-180">
+                <img src="./leave.png" alt="" class="leave absolute size-8 top-full left-1/12">
+                <!-- <img src="./leave.png" alt="" class=" absolute size-8 -bottom-full right-1/12 rotate-x-180"> -->
+                <img src="./gerbera.png" alt="" class="flower size-20 relative">
+              </div>
+
+              <div class="absolute w-auto -rotate-5 top-4 ">
+                <img src="./stick.png" alt="" class="stick absolute h-48 left-1/2 -translate-x-1/2 top-1/4 rotate-x-180">
+                <img src="./leave.png" alt="" class="leave absolute size-8 top-full left-1/12">
+                <!-- <img src="./leave.png" alt="" class=" absolute size-8 -bottom-full right-1/12 rotate-x-180"> -->
+                <img src="./gerbera.png" alt="" class="flower size-22 relative">
+              </div>              
+
+              <div class="absolute right-7 top-22 w-auto rotate-10 ">
+                <img src="./stick.png" alt="" class="stick absolute h-48 left-1/2 -translate-x-1/2 top-1/4 rotate-x-180">
+                <!-- <img src="./leave.png" alt="" class=" absolute size-8 top-full left-1/12"> -->
+                <!-- <img src="./leave.png" alt="" class=" absolute size-8 -bottom-full right-1/8 rotate-x-180"> -->
+                <img src="./lily2.png" alt="" class="flower size-20 relative rotate-15">
+              </div>
+
+              <div class="absolute left-0 top-14 w-auto -rotate-20 ">
+                <img src="./stick.png" alt="" class="stick absolute h-48 left-1/2 -translate-x-1/2 top-1/4 rotate-x-180">
+                <img src="./leave.png" alt="" class="leave absolute size-8 top-full left-1/12">
+                <img src="./leave.png" alt="" class="leave absolute size-8 -bottom-full right-1/8 rotate-x-180">
+                <img src="./lily2.png" alt="" class="flower size-22 relative rotate-15">
+              </div>
+            </div>
+
+            <img src="./wrap2.png" alt="" class="absolute top-0 left-0 w-48" id="wrap2">
+        </section>
+
+    </main>
+
+
+
+</body>
+
+<script>
+
+  console.log("El script se está ejecutando en el cliente");
+    import gsap from 'gsap';
+
+    function initAnimations() {
+
+        const tl = gsap.timeline();
+
+        tl.from('.stick', {
+          delay: 1,
+          scaleY: 0,
+          opacity: 0,
+          duration: 1.2,
+          ease: 'back.out(1.7)',
+          transformOrigin: 'center center',
+          stagger: 0.5
+        });
+        
+        tl.from('.leave', {
+          scale: 0,
+          opacity: 0,
+          duration: 1.2,
+          ease: 'back.out(1.7)',
+          transformOrigin: 'center center',
+          stagger: 0.5
+        });
+
+        tl.from('.flower', {
+          scale: 0,
+          opacity: 0,
+          duration: 1.2,
+          ease: 'back.out(1.7)',
+          transformOrigin: 'center center',
+          stagger: 0.5
+        });
+
+        
+
+        tl.from('#wrap', {
+          opacity: 0,
+          duration: 1.2,
+          ease: 'back.out(1.7)', // 'back.out' hace que sobrepase ligeramente el 100% y regrese (efecto pop)
+          transformOrigin: 'center center',
+          stagger: 0.5
+        });
+
+        tl.from('#wrap2', {
+          opacity: 0,
+          duration: 1.2,
+          ease: 'back.out(1.7)', // 'back.out' hace que sobrepase ligeramente el 100% y regrese (efecto pop)
+          transformOrigin: 'center center',
+          stagger: 0.5
+        }, "<");
+    }
+
+    const btn = document.getElementById("btn");
+    if(btn){
+      btn.addEventListener("click", initAnimations);
+    }
+
+</script>
+
 </html>
